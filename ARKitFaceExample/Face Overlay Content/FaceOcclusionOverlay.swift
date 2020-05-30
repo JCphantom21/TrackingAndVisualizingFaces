@@ -34,7 +34,7 @@ class FaceOcclusionOverlay: NSObject, VirtualContentController {
         occlusionNode.renderingOrder = -1
 
         // Add 3D asset positioned to appear as "glasses".
-        let faceOverlayContent = SCNReferenceNode(named: "overlayModel")
+        let faceOverlayContent = SCNReferenceNode(named: "glasses")//"*overlayModel")
 
         contentNode = SCNNode()
         contentNode!.addChildNode(occlusionNode)
